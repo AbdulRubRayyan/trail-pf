@@ -66,7 +66,7 @@
 }
 
 .work-div {
-    height: 500px;
+    height: auto;
     background-color: rgb(240, 229, 229);
     padding: 2rem;
     text-align: center;
@@ -74,6 +74,6 @@
 
 .work-card {
     
-    height: 250px;
+    height: auto;
     margin-top: 2rem;;
 }
