@@ -64,3 +64,15 @@
     justify-content: center !important;
 }
 
+.work-div {
+    height: 500px;
+    background-color: rgb(240, 229, 229);
+    padding: 2rem;
+    text-align: center;
+}
+
+.work-card {
+    border: 1px solid black;
+    height: 250px;
+    margin-top: 2rem;;
+}
