@@ -2,6 +2,8 @@ const path = require('path')
 const express = require('express')
 const ejs = require('ejs');
 
+const port = process.env.PORT || 3000
+
 const app = express();
 const publicDirectoryPath = path.join(__dirname, './public')
 const viewsPath = path.join(__dirname, './views')
@@ -16,7 +18,7 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Listening to port '+port);
     
 })
