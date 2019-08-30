@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const favicon = require('serve-favicon');
 const ejs = require('ejs');
 
 
@@ -12,6 +13,7 @@ const port = process.env.PORT || 3000
 app.set('views', viewsPath)
 app.set('view engine', 'ejs')
 app.use(express.static(publicDirectoryPath))
+
 
 app.get('/', (req, res) => {
     res.render('index')
