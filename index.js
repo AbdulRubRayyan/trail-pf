@@ -14,9 +14,14 @@ app.set('view engine', 'ejs')
 app.use(express.static(publicDirectoryPath))
 
 app.get('/', (req, res) => {
-    res.render('')
+    res.render('index')
 })
 
+app.get('/contact', (req, res) => {
+    res.render('contact', {
+        title: 'Contact Me - Abdul Rub'
+    })
+})
 
 app.listen(port, () => {
     console.log('Listening to port '+port);

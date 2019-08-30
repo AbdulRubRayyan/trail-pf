@@ -14,239 +14,260 @@
 
 </head>
 <body>
-        <%- include partials/navbar.ejs %>
-        <!-- START OF HERO -->
-        <div class="hero is-info is-bold is-fullheight-with-navbar" id="hero">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns is-7 is-variable">
-                        <div class="column has-vcentered" id="hero-text">
-                            <h1 class="title is-1">I'm Abdul Rub.</h1> 
-                            <h2 class="subtitle is-3">I am a Junior Web Developer. <br> Let us together build something. </h2>
-                            <a href="/about.html" class="button is-danger is-medium" id="hero-button">Contact Me</a>
-                        </div>
-                        <div class="column">
-                            <img src="img/hero.webp" alt="I am Abdul Rub">
+    <!-- START OF NAVBAR -->
+    <%- include partials/navbar.ejs %>
+    <!-- EMD OF NAVBAR -->
+        
+    <!-- START OF HERO -->
+    <div class="hero is-info is-bold is-fullheight-with-navbar" id="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-7 is-variable">
+                    <div class="column has-vcentered" id="hero-text">
+                        <h1 class="title is-1">I'm Abdul Rub.</h1> 
+                        <h2 class="subtitle is-3">I am a Junior Web Developer. <br> Let us together build something. </h2>
+                        <a href="/contact" class="button is-danger is-medium" id="hero-button">Contact Me</a>
+                    </div>
+                    <div class="column">
+                        <img src="img/hero.webp" alt="I am Abdul Rub">
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    <!-- END OF HERO -->
+
+    <!-- START OF ABOUT SECTION -->
+    
+        <div id="about-div">
+            <div class="container">
+                <div class="columns is-gapless">
+                    <div class="column is-one-third has-text-centered" id="about-pic">
+                        <div class="title is-2">About Me</div>
+                        <img  id="about-image" src="img/me.webp">
+                    </div>
+                    <div class="column is-two-thirds" id="about-text">
+                        <div>
+                            <p class="subtitle is-4">
+                                    I am Mohammed Abdul Rub, an undergraduate Computer Science Engineering student at Muffakham Jah College of Engineering and Technology, Hyderabad and learning to be a full stack web developer. I am 21 years old. I love to design and develop websites that are beautiful, fast, responsive and minimalist. I also have basic programming skills. 
+                            </p>
+                            <p class="subtitle is-4">
+                                    While I am not coding or developing stuff, I like to eat, sleep, hang-out with friends, read books and listen to music. I also like to learn new stuff in my free time.
+                            </p>
                         </div>
                     </div>
-
-                    
                 </div>
             </div>
         </div>
-        <!-- END OF HERO -->
-
-        <!-- START OF ABOUT SECTION -->
         
-            <div id="about-div">
-                <div class="container">
-                    <div class="columns is-gapless">
-                        <div class="column is-one-third has-text-centered" id="about-pic">
-                            <div class="title is-2">About Me</div>
-                            <img  id="about-image" src="img/me.webp">
-                        </div>
-                        <div class="column is-two-thirds" id="about-text">
-                            <div>
-                                <p class="subtitle is-4">
-                                        I am Mohammed Abdul Rub, an undergraduate Computer Science Engineering student at Muffakham Jah College of Engineering and Technology, Hyderabad and learning to be a full stack web developer. I am 21 years old. I love to design and develop websites that are beautiful, fast, responsive and minimalist. I also have basic programming skills. 
-                                </p>
-                                <p class="subtitle is-4">
-                                        While I am not coding or developing stuff, I like to eat, sleep, hang-out with friends, read books and listen to music. I also like to learn new stuff in my free time.
-                                </p>
-                            </div>
-                        </div>
+    
+    <!-- END OF ABOUT SECTION -->
+
+    <!-- START OF SKILLS SECTION -->
+    <section id="skills">
+        <div id="skill-div">
+            <div class="container has-text-centered">
+                    <h1 class="title is-2">Skills</h1>
+
+                    <div class="skill-section has-text-centered">
+                        <h2 class="subtitle is-3">Front-end</h2>
+                        <p class="buttons">
+                            <a class="button is-rounded is-large">
+                                <span class="icon is-medium">
+                                        <i class="devicon-html5-plain"></i>
+                                </span>
+                                <span>HTML</span>
+                            </a>
+                            <a class="button is-rounded is-large">
+                                <span class="icon is-medium">
+                                        <i class="devicon-css3-plain"></i>
+                                </span>
+                                <span>CSS</span>
+                            </a>
+                            <a class="button is-rounded is-large">
+                                    <span class="icon is-medium">
+                                            <i class="devicon-javascript-plain"></i>
+                                    </span>
+                                    <span>JavaScript</span>
+                            </a>
+                        </p>
                     </div>
-                </div>
-            </div>
-            
-        
-        <!-- END OF ABOUT SECTION -->
-
-        <!-- START OF SKILLS SECTION -->
-        <section id="skills">
-            <div id="skill-div">
-                <div class="container has-text-centered">
-                        <h1 class="title is-2">Skills</h1>
-
-                        <div class="skill-section has-text-centered">
-                            <h2 class="subtitle is-3">Front-end</h2>
+                    <div class="skill-section has-text-centered">
+                            <h2 class="subtitle is-3">Frameworks</h2>
                             <p class="buttons">
                                 <a class="button is-rounded is-large">
                                     <span class="icon is-medium">
-                                            <i class="devicon-html5-plain"></i>
+                                            <i class="devicon-bootstrap-plain"></i>
                                     </span>
-                                    <span>HTML</span>
+                                    <span>Bootstrap</span>
                                 </a>
                                 <a class="button is-rounded is-large">
                                     <span class="icon is-medium">
-                                            <i class="devicon-css3-plain"></i>
+                                            <i class="fa fab fa-css3"></i>
                                     </span>
-                                    <span>CSS</span>
+                                    <span>Bulma</span>
                                 </a>
                                 <a class="button is-rounded is-large">
                                         <span class="icon is-medium">
-                                                <i class="devicon-javascript-plain"></i>
+                                                <i class="devicon-jquery-plain"></i>
                                         </span>
-                                        <span>JavaScript</span>
+                                        <span>jQuery</span>
                                 </a>
                             </p>
-                        </div>
-                        <div class="skill-section has-text-centered">
-                                <h2 class="subtitle is-3">Frameworks</h2>
-                                <p class="buttons">
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="devicon-bootstrap-plain"></i>
-                                        </span>
-                                        <span>Bootstrap</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="fa fab fa-css3"></i>
-                                        </span>
-                                        <span>Bulma</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                            <span class="icon is-medium">
-                                                    <i class="devicon-jquery-plain"></i>
-                                            </span>
-                                            <span>jQuery</span>
-                                    </a>
-                                </p>
-                        </div>
-                        <div class="skill-section has-text-centered">
-                                <h2 class="subtitle is-3">Back-end (learning)</h2>
-                                <p class="buttons">
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="devicon-nodejs-plain"></i>
-
-                                        </span>
-                                        <span>Node</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="devicon-express-original"></i>
-
-                                        </span>
-                                        <span>Express</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                            <span class="icon is-medium">
-                                                    <i class="devicon-mongodb-plain"></i>
-                                            </span>
-                                            <span>MongoDB</span>
-                                    </a>
-                                </p>
-                        </div>
-                        <div class="skill-section has-text-centered">
-                                <h2 class="subtitle is-3">Tools</h2>
-                                <p class="buttons">
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="devicon-wordpress-plain"></i>
-
-
-                                        </span>
-                                        <span>WordPress</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="devicon-git-plain"></i>
-
-
-                                        </span>
-                                        <span>Git</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                        <span class="icon is-medium">
-                                                <i class="devicon-visualstudio-plain"></i>
-
-                                        </span>
-                                        <span>VS Code</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                            <span class="icon is-medium">
-                                                    <i class="devicon-github-original"></i>
-
-                                        </span>
-                                        <span>Github</span>
-                                    </a>
-                                    <a class="button is-rounded is-large">
-                                            <span class="icon is-medium">
-                                                    <i class="devicon-heroku-original"></i>
-
-                                        </span>
-                                        <span>Heroku</span>
-                                    </a>
-                                </p>
-                        </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- END OF SKILLS SECTION -->
-
-        <!-- START OF WORK SECTION -->
-
-        <section id="work">
-            <div class="work-div">
-                <div class="container">
-                    <h1 class="title is-3">My Work</h1>
-                    <div class="work-cards">
-                        <div class="columns is-variable is-5">
-                            <div class="column is-one-third work-card">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image ">
-                                            <a href="http://thetradeguru.netlify.com">
-                                            <img src="img/tg.webp" alt="Placeholder image"></a>
-                                          </figure>
-                                    </div>
-                                    <div class="card-content">
-                                       <p class="title is-4">The Trade Guru</p>
-                                        
-                                        <p class="subtitle">A fast and responsive website made for a stock market trading platform. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column is-one-third work-card">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image ">
-                                            <a href="http://weather-ray.herokuapp.com">
-                                            <img  src="img/weather.webp" alt="Placeholder image"> </a>
-                                          </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <a href="http://weather-ray.herokuapp.com"><p class="title is-4">Weather App</p></a>
-                                        
-                                        <p class="subtitle">A simple web application that summarizes weather forecast of a place. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column is-one-third work-card">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image ">
-                                            <a href="http://imdb-ray.herokuapp.com">
-                                            <img src="img/imdb.webp" alt="Placeholder image"></a>
-                                          </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="title is-4">IMDB Search</p>
-                                        <p class="subtitle">A simple web application that searches for details of an input movie. </p>
-                                    </div>
-                                </div>
-                            </div>
-                          </div>                          
                     </div>
+                    <div class="skill-section has-text-centered">
+                            <h2 class="subtitle is-3">Back-end (learning)</h2>
+                            <p class="buttons">
+                                <a class="button is-rounded is-large">
+                                    <span class="icon is-medium">
+                                            <i class="devicon-nodejs-plain"></i>
+
+                                    </span>
+                                    <span>Node</span>
+                                </a>
+                                <a class="button is-rounded is-large">
+                                    <span class="icon is-medium">
+                                            <i class="devicon-express-original"></i>
+
+                                    </span>
+                                    <span>Express</span>
+                                </a>
+                                <a class="button is-rounded is-large">
+                                        <span class="icon is-medium">
+                                                <i class="devicon-mongodb-plain"></i>
+                                        </span>
+                                        <span>MongoDB</span>
+                                </a>
+                            </p>
+                    </div>
+                    <div class="skill-section has-text-centered">
+                            <h2 class="subtitle is-3">Tools</h2>
+                            <p class="buttons">
+                                <a class="button is-rounded is-large">
+                                    <span class="icon is-medium">
+                                            <i class="devicon-wordpress-plain"></i>
+
+
+                                    </span>
+                                    <span>WordPress</span>
+                                </a>
+                                <a class="button is-rounded is-large">
+                                    <span class="icon is-medium">
+                                            <i class="devicon-git-plain"></i>
+
+
+                                    </span>
+                                    <span>Git</span>
+                                </a>
+                                <a class="button is-rounded is-large">
+                                    <span class="icon is-medium">
+                                            <i class="devicon-visualstudio-plain"></i>
+
+                                    </span>
+                                    <span>VS Code</span>
+                                </a>
+                                <a class="button is-rounded is-large">
+                                        <span class="icon is-medium">
+                                                <i class="devicon-github-original"></i>
+
+                                    </span>
+                                    <span>Github</span>
+                                </a>
+                                <a class="button is-rounded is-large">
+                                        <span class="icon is-medium">
+                                                <i class="devicon-heroku-original"></i>
+
+                                    </span>
+                                    <span>Heroku</span>
+                                </a>
+                            </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF SKILLS SECTION -->
+
+    <!-- START OF WORK SECTION -->
+
+    <section id="work">
+        <div class="work-div">
+            <div class="container">
+                <h1 class="title is-3">My Work</h1>
+                <div class="work-cards">
+                    <div class="columns is-variable is-5">
+                        <div class="column is-one-third work-card">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image ">
+                                        <a href="http://thetradeguru.netlify.com">
+                                        <img src="img/tg.webp" alt="Placeholder image"></a>
+                                        </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title is-4">The Trade Guru</p>
+                                    
+                                    <p class="subtitle">A fast and responsive website made for a stock market trading platform. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-third work-card">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image ">
+                                        <a href="http://weather-ray.herokuapp.com">
+                                        <img  src="img/weather.webp" alt="Placeholder image"> </a>
+                                        </figure>
+                                </div>
+                                <div class="card-content">
+                                    <a href="http://weather-ray.herokuapp.com"><p class="title is-4">Weather App</p></a>
+                                    
+                                    <p class="subtitle">A simple web application that summarizes weather forecast of a place. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-third work-card">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image ">
+                                        <a href="http://imdb-ray.herokuapp.com">
+                                        <img src="img/imdb.webp" alt="Placeholder image"></a>
+                                        </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title is-4">IMDB Search</p>
+                                    <p class="subtitle">A simple web application that searches for details of an input movie. </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>                          
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- END OF WORK SECTION -->
-    
+    <!-- END OF WORK SECTION -->
+
+    <!-- START OF CONTACT SECTION -->
+    <section id="contact">
+        <div class="contact-div">
+            <div class="container has-text-centered">
+                <p class="title">Contact Me</p>
+                <p class="subtitle">Have some project idea? Would like to get in touch? Click on the button below.</p>
+                <a href="/contact" class="button is-link">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF CONTACT SECTION -->
+
+    <!-- START OF FOOTER SECTION -->
+    <%- include partials/footer.ejs %>
+
+    <!-- END OF FOOTBAR SECTION -->
+
 
     <script src="js/script.js"></script>
 </body>
