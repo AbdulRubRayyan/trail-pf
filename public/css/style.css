@@ -1,0 +1,66 @@
+.hero.is-medium .hero-body {
+    padding-bottom: 4rem !important;
+    padding-top: 4rem !important;
+    
+}
+
+#hero {
+    background: #005C97; 
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  
+    background: linear-gradient(to right, #363795, #005C97); 
+
+}
+
+#hero-text {
+    
+    display: flex;
+   
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#hero-text h2{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+#hero-text a {
+    width: 10rem;
+}
+
+#hero-button {
+    margin-bottom: 2rem;
+}
+
+#about-div {
+    height: auto;
+    padding-top: 3rem;
+}
+
+#about-pic  {
+    text-align: center !important;
+}
+#about-image {
+    border-radius: 50%;
+    width: 15rem !important;
+}
+
+#about-text {
+    padding: 2rem !important;
+}
+
+#skill-div {
+    height: auto;
+    background-color: rgb(245, 240, 245);
+    padding: 3rem;
+}
+.skill-section {
+    text-align: center !important;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    justify-content: center !important;
+}
+
